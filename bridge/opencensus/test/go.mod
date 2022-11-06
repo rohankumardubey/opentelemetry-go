@@ -3,7 +3,7 @@ module go.opentelemetry.io/otel/bridge/opencensus/test
 go 1.16
 
 require (
-	go.opencensus.io v0.23.0
+	go.opencensus.io v0.24.0
 	go.opentelemetry.io/otel v1.4.1
 	go.opentelemetry.io/otel/bridge/opencensus v0.27.1
 	go.opentelemetry.io/otel/sdk v1.4.1
