@@ -4,15 +4,18 @@ go 1.16
 
 require (
 	github.com/client9/misspell v0.3.4
+	github.com/denis-tingajkin/go-header v0.4.2 // indirect
 	github.com/gogo/protobuf v1.3.2
-	github.com/golangci/golangci-lint v1.44.2
+	github.com/golangci/golangci-lint v1.51.2
 	github.com/itchyny/gojq v0.12.7
 	github.com/jcchavezs/porto v0.4.0
+	github.com/logrusorgru/aurora v0.0.0-20181002194514-a7b3b318ed4e // indirect
+	github.com/sylvia7788/contextcheck v1.0.4 // indirect
 	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad
 	go.opentelemetry.io/build-tools/multimod v0.0.0-20210920164323-2ceabab23375
 	go.opentelemetry.io/build-tools/semconvgen v0.0.0-20210920164323-2ceabab23375
-	golang.org/x/mod v0.5.1
-	golang.org/x/tools v0.1.9
+	golang.org/x/mod v0.8.0
+	golang.org/x/tools v0.6.0
 )
 
 replace go.opentelemetry.io/otel => ../..
