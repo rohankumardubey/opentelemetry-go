@@ -3,16 +3,19 @@ module go.opentelemetry.io/otel/internal/tools
 go 1.16
 
 require (
+	github.com/bketelsen/crypt v0.0.4 // indirect
 	github.com/client9/misspell v0.3.4
+	github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568 // indirect
 	github.com/gogo/protobuf v1.3.2
 	github.com/golangci/golangci-lint v1.44.2
 	github.com/itchyny/gojq v0.12.7
 	github.com/jcchavezs/porto v0.4.0
+	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad
-	go.opentelemetry.io/build-tools/multimod v0.0.0-20210920164323-2ceabab23375
+	go.opentelemetry.io/build-tools/multimod v0.6.0
 	go.opentelemetry.io/build-tools/semconvgen v0.0.0-20210920164323-2ceabab23375
-	golang.org/x/mod v0.5.1
-	golang.org/x/tools v0.1.9
+	golang.org/x/mod v0.7.0
+	golang.org/x/tools v0.1.12
 )
 
 replace go.opentelemetry.io/otel => ../..
